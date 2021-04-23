@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="43.469" tests="10" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home/lib"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sumtagnihoti/eclipse-workspace/FreeCRMTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/sumtagnihoti/eclipse-workspace/FreeCRMTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/06/36qh6q5947b17tg1625njq240000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/sumtagnihoti/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf17064219801415254548.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/sumtagnihoti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/sumtagnihoti"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="sumtagnihoti"/>
+    <property name="java.class.path" value="/Users/sumtagnihoti/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849/jars/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.10.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.10"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/sumtagnihoti/eclipse-workspace/FreeCRMTest/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="loginPageTitleTest" classname="com.FreeCRM.testcases.LoginTest" time="0.02"/>
+  <testcase name="crmLogoImageTest" classname="com.FreeCRM.testcases.LoginTest" time="0.061"/>
+  <testcase name="loginTest" classname="com.FreeCRM.testcases.LoginTest" time="5.068"/>
+  <testcase name="loginTest" classname="com.FreeCRM.testcases.LoginTest" time="5.455"/>
+  <testcase name="loginTest" classname="com.FreeCRM.testcases.LoginTest" time="6.346"/>
+  <testcase name="verifyHomePageTitleTest" classname="com.FreeCRM.testcases.HomePageTest" time="0.01"/>
+  <testcase name="verifyUserNameTest" classname="com.FreeCRM.testcases.HomePageTest" time="1.688"/>
+  <testcase name="goToContactsLinkTest" classname="com.FreeCRM.testcases.HomePageTest" time="6.282"/>
+  <testcase name="contactsPageTest" classname="com.FreeCRM.testcases.ContactsPageTest" time="30.34">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.85)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;&#10;System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [b0c07764bdf121166fe632410eb1c076, findElement {using=xpath, value=//input[@name=&apos;first_name&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:49503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b0c07764bdf121166fe632410eb1c076" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='first_name']"}
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'MacBook-Pro.local', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b0c07764bdf121166fe632410eb1c076, findElement {using=xpath, value=//input[@name='first_name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:49503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b0c07764bdf121166fe632410eb1c076
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at com.freeCRM.pages.ContactsPage.createNewContact(ContactsPage.java:45)
+	at com.FreeCRM.testcases.ContactsPageTest.contactsPageTest(ContactsPageTest.java:39)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 13259
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 23, 2021 2:26:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 23, 2021 2:26:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+Apr 23, 2021 2:26:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+  <testcase name="contactsPageTest" classname="com.FreeCRM.testcases.ContactsPageTest" time="30.262">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}&#10;  (Session info: chrome=90.0.4430.85)&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;&#10;System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.10&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6b42f6a0b604bf2489e2a416f86564c7, findElement {using=xpath, value=//input[@name=&apos;first_name&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:50283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6b42f6a0b604bf2489e2a416f86564c7" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='first_name']"}
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'MacBook-Pro.local', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b42f6a0b604bf2489e2a416f86564c7, findElement {using=xpath, value=//input[@name='first_name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:50283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b42f6a0b604bf2489e2a416f86564c7
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
+	at com.freeCRM.pages.ContactsPage.createNewContact(ContactsPage.java:45)
+	at com.FreeCRM.testcases.ContactsPageTest.contactsPageTest(ContactsPageTest.java:39)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 25689
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Apr 23, 2021 2:28:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Apr 23, 2021 2:28:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 90, so returning the closest version found: 89
+Apr 23, 2021 2:28:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 90 of 89
+]]></system-err>
+  </testcase>
+</testsuite>

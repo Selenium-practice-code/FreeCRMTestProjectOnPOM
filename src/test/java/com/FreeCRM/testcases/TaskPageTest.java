@@ -25,6 +25,7 @@ public class TaskPageTest extends TestBase {
 		initialization();
 		loginPage = new LoginPage();
 		homePage = new HomePage();
+		taskPage = new TaskPage();
 		homePage = loginPage.doLogin(Config.getProperty("username"), Config.getProperty("password"));
 		homePage.clickOnTask();
 
@@ -40,6 +41,7 @@ public class TaskPageTest extends TestBase {
 	@Test(priority = 2, dataProviderClass = Utilities.class, dataProvider = "dp")
 	public void taskPageTest(Hashtable<String, String> data) {
 
+		taskPage.clickOnTaskCreateBtn();
 		taskPage.createNewTask(data.get("title"), data.get("type"));
 	}
 

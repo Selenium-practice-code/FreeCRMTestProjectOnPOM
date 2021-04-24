@@ -40,6 +40,16 @@
 
 		</classes>
 	</test> <!-- Test -->
+	
+	<test thread-count="5" name="Taskpage Test">
+		<classes>
+
+			<class name="com.FreeCRM.testcases.TaskPageTest" />
+
+		</classes>
+	</test> <!-- Test -->
+	
+	
 
 
 </suite> <!-- Suite -->

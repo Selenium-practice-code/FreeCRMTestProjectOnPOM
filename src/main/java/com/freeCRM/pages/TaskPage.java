@@ -19,8 +19,8 @@ public class TaskPage extends TestBase {
 	@FindBy(xpath = "//body/div[@id='ui']/div/div/div[@id='main-content']/div/div/form/div[2]/div[2]/div[1]/div[1]")
 	private WebElement typeDropDown;
 
-	@FindBy(xpath = "//div[normalize-space()='Create new Task']")
-	private WebElement createNewTaskLable;
+	@FindBy(xpath = "//body/div[@id='ui']/div/div/div[@id='main-content']/div/div[@id='dashboard-toolbar']/div[1]")
+	private WebElement  taskLable;
 
 	// create a constructor for PageFactory
 
@@ -33,7 +33,7 @@ public class TaskPage extends TestBase {
 
 	public boolean verifyCreateNewTaskLable() {
 
-		return createNewTaskLable.isDisplayed();
+		return taskLable.isDisplayed();
 	}
 
 	public void clickOnTaskCreateBtn() {

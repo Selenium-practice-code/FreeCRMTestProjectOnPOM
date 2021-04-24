@@ -90,6 +90,14 @@ public class TestBase {
 			log.info("Safari Browser Launched.");
 		}
 
+		
+		driver.get(Config.getProperty("testSiteURL"));
+		log.info("Naviated to : -> " + Config.getProperty("testSiteURL"));
+
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Waits.IMPLICIT_WAIT));
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Waits.PAGE_LOAD_TIMEOUT));
 		e_driver = new EventFiringWebDriver(driver);
 		// Now create object of EventListerHandler to register it with
 		// EventFiringWebDriver
@@ -97,14 +105,6 @@ public class TestBase {
 		e_driver.register(eventListener);
 		driver = e_driver;
 
-		driver.get(Config.getProperty("testSiteURL"));
-		
-		log.info("Naviated to : -> " + Config.getProperty("testSiteURL"));
-
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Waits.IMPLICIT_WAIT));
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Waits.PAGE_LOAD_TIMEOUT));
 
 	}
 

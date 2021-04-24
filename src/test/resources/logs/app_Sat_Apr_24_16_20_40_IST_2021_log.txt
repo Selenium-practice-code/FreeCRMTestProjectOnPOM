@@ -1,0 +1,6 @@
+INFO    2021-04-24 16:20:40,353 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
+INFO    2021-04-24 16:20:43,440 [main] com.freeCRM.base.TestBase  - Chrome Browser Launched.
+INFO    2021-04-24 16:21:00,860 [main] com.freeCRM.base.TestBase  - Naviated to : -> https://freecrm.com/
+INFO    2021-04-24 16:21:04,162 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //body[1]/div[1]/header[1]/div[1]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[2]
+INFO    2021-04-24 16:21:04,186 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //body[1]/div[1]/header[1]/div[1]/nav[1]/div[2]/div[1]/div[1]/div[1]/a[1]/span[2]
+INFO    2021-04-24 16:21:05,390 [main] com.freeCRM.base.TestBase  - Test executed successfully!!

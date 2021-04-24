@@ -1,0 +1,36 @@
+INFO    2021-04-24 16:04:26,156 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
+INFO    2021-04-24 16:04:47,366 [main] com.freeCRM.base.TestBase  - Chrome Browser Launched.
+INFO    2021-04-24 16:04:47,366 [main] com.freeCRM.base.TestBase  - Before navigating to: 'https://freecrm.com/'
+INFO    2021-04-24 16:05:09,503 [main] com.freeCRM.base.TestBase  - Navigated to:'https://freecrm.com/'
+INFO    2021-04-24 16:05:09,503 [main] com.freeCRM.base.TestBase  - Naviated to : -> https://freecrm.com/
+INFO    2021-04-24 16:05:11,478 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]
+INFO    2021-04-24 16:05:11,503 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]
+INFO    2021-04-24 16:05:11,503 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]]
+INFO    2021-04-24 16:05:12,525 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]]
+INFO    2021-04-24 16:05:12,526 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.name: email
+INFO    2021-04-24 16:05:14,548 [main] com.freeCRM.base.TestBase  - Found Element By : By.name: email
+INFO    2021-04-24 16:05:14,900 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.name: password
+INFO    2021-04-24 16:05:14,927 [main] com.freeCRM.base.TestBase  - Found Element By : By.name: password
+INFO    2021-04-24 16:05:15,037 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+INFO    2021-04-24 16:05:15,058 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //div[contains(text(),'Login')]
+INFO    2021-04-24 16:05:15,059 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //div[contains(text(),'Login')]]
+INFO    2021-04-24 16:05:15,129 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //div[contains(text(),'Login')]]
+INFO    2021-04-24 16:05:15,129 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+INFO    2021-04-24 16:05:17,111 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+INFO    2021-04-24 16:05:17,111 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //span[contains(text(),'Contacts')]]
+INFO    2021-04-24 16:05:17,285 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //span[contains(text(),'Contacts')]]
+INFO    2021-04-24 16:05:17,288 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //a[@href='/contacts/new']
+INFO    2021-04-24 16:05:17,333 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //a[@href='/contacts/new']
+INFO    2021-04-24 16:05:17,334 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //a[@href='/contacts/new']]
+INFO    2021-04-24 16:05:17,553 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (136b661624cc754a6dcaa675341cbf35)] -> xpath: //a[@href='/contacts/new']]
+INFO    2021-04-24 16:05:17,554 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //input[@name='first_name']
+INFO    2021-04-24 16:05:47,582 [main] com.freeCRM.base.TestBase  - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='first_name']"}
+  (Session info: chrome=90.0.4430.85)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0-beta-2', revision: '4ec0cfc112'
+System info: host: 'MacBook-Pro.local', ip: '192.168.1.14', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [136b661624cc754a6dcaa675341cbf35, findElement {using=xpath, value=//input[@name='first_name']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:53212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 136b661624cc754a6dcaa675341cbf35
+INFO    2021-04-24 16:05:54,325 [main] com.freeCRM.base.TestBase  - Test executed successfully!!

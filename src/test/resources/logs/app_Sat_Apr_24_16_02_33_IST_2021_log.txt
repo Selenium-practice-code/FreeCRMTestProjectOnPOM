@@ -1,0 +1,20 @@
+INFO    2021-04-24 16:02:33,641 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
+INFO    2021-04-24 16:02:35,766 [main] com.freeCRM.base.TestBase  - Chrome Browser Launched.
+INFO    2021-04-24 16:02:35,766 [main] com.freeCRM.base.TestBase  - Before navigating to: 'https://freecrm.com/'
+INFO    2021-04-24 16:03:13,042 [main] com.freeCRM.base.TestBase  - Navigated to:'https://freecrm.com/'
+INFO    2021-04-24 16:03:13,042 [main] com.freeCRM.base.TestBase  - Naviated to : -> https://freecrm.com/
+INFO    2021-04-24 16:03:19,979 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]
+INFO    2021-04-24 16:03:19,999 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]
+INFO    2021-04-24 16:03:19,999 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (78fb666b5ed308002fd0dcba1662a1df)] -> xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]]
+INFO    2021-04-24 16:03:21,061 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (78fb666b5ed308002fd0dcba1662a1df)] -> xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]]
+INFO    2021-04-24 16:03:21,062 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.name: email
+INFO    2021-04-24 16:03:24,452 [main] com.freeCRM.base.TestBase  - Found Element By : By.name: email
+INFO    2021-04-24 16:03:24,856 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.name: password
+INFO    2021-04-24 16:03:24,877 [main] com.freeCRM.base.TestBase  - Found Element By : By.name: password
+INFO    2021-04-24 16:03:24,981 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //div[contains(text(),'Login')]
+INFO    2021-04-24 16:03:25,000 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //div[contains(text(),'Login')]
+INFO    2021-04-24 16:03:25,000 [main] com.freeCRM.base.TestBase  - Trying to click on: [[ChromeDriver: chrome on MAC (78fb666b5ed308002fd0dcba1662a1df)] -> xpath: //div[contains(text(),'Login')]]
+INFO    2021-04-24 16:03:25,070 [main] com.freeCRM.base.TestBase  - Clicked on: [[ChromeDriver: chrome on MAC (78fb666b5ed308002fd0dcba1662a1df)] -> xpath: //div[contains(text(),'Login')]]
+INFO    2021-04-24 16:03:25,071 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //span[contains(text(),'sumit agnihotri')]
+INFO    2021-04-24 16:03:26,145 [main] com.freeCRM.base.TestBase  - Found Element By : By.xpath: //span[contains(text(),'sumit agnihotri')]
+INFO    2021-04-24 16:03:27,830 [main] com.freeCRM.base.TestBase  - Test executed successfully!!

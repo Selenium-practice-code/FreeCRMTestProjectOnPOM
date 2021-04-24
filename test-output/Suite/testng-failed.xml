@@ -10,9 +10,20 @@
         <methods>
           <include name="setUp"/>
           <include name="closedBrowser"/>
-          <include name="contactsPageTest" invocation-numbers="0 1"/>
+          <include name="contactsPageTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- com.FreeCRM.testcases.ContactsPageTest -->
     </classes>
   </test> <!-- Contacts Test(failed) -->
+  <test thread-count="5" name="Dealspage Test(failed)">
+    <classes>
+      <class name="com.FreeCRM.testcases.DealsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="closedBrowser"/>
+          <include name="dealsPageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.FreeCRM.testcases.DealsPageTest -->
+    </classes>
+  </test> <!-- Dealspage Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

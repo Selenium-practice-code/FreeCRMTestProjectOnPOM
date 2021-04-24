@@ -3,7 +3,6 @@ package com.FreeCRM.testcases;
 import java.util.Hashtable;
 
 import org.testng.Assert;
-import org.testng.AssertJUnit;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -11,43 +10,37 @@ import org.testng.annotations.Test;
 import com.freeCRM.base.TestBase;
 import com.freeCRM.pages.HomePage;
 import com.freeCRM.pages.LoginPage;
+import com.freeCRM.pages.TaskPage;
 import com.freeCRM.utilities.Utilities;
 
-public class LoginTest extends TestBase {
+public class TaskPageTest extends TestBase {
 
 	LoginPage loginPage;
 	HomePage homePage;
+	TaskPage taskPage;
 
-	 
 	@BeforeMethod
 	public void setUp() {
 
 		initialization();
 		loginPage = new LoginPage();
-	    homePage = new HomePage();
+		homePage = new HomePage();
+		homePage = loginPage.doLogin(Config.getProperty("username"), Config.getProperty("password"));
+		homePage.clickOnTask();
 
 	}
 
 	@Test(priority = 1)
-	public void loginPageTitleTest() {
+	public void verifyTaskpagelable() {
 
-		String title = loginPage.validateLoginPageTitle();
-		Assert.assertEquals(title, "#1 Free CRM customer relationship management software cloud");
-	}
-
-	@Test(priority = 2)
-	public void crmLogoImageTest() {
-
-		boolean flag = loginPage.validateCrmImage();
+		boolean flag = taskPage.verifyCreateNewTaskLable();
 		Assert.assertTrue(flag);
 	}
 
-	@Test(priority = 3, dataProviderClass = Utilities.class, dataProvider = "dp")
-	
-	public void loginTest(Hashtable<String, String> data) {
+	@Test(priority = 2, dataProviderClass = Utilities.class, dataProvider = "dp")
+	public void taskPageTest(Hashtable<String, String> data) {
 
-		homePage = loginPage.doLogin(data.get("username"), data.get("password"));
-
+		taskPage.createNewTask(data.get("title"), data.get("type"));
 	}
 
 	@AfterMethod

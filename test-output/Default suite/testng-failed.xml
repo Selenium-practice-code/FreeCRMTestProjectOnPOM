@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.FreeCRM.testcases.ContactsPageTest">
+      <class name="com.FreeCRM.testcases.TaskPageTest">
         <methods>
-          <include name="setUp"/>
+          <include name="verifyTaskpagelable"/>
           <include name="closedBrowser"/>
-          <include name="contactsPageTest"/>
+          <include name="taskPageTest"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.FreeCRM.testcases.ContactsPageTest -->
+      </class> <!-- com.FreeCRM.testcases.TaskPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

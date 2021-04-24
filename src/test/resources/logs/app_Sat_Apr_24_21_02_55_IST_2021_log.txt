@@ -1,0 +1,4 @@
+INFO    2021-04-24 21:02:55,196 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
+INFO    2021-04-24 21:03:06,462 [main] com.freeCRM.base.TestBase  - Chrome Browser Launched.
+INFO    2021-04-24 21:03:30,333 [main] com.freeCRM.base.TestBase  - Naviated to : -> https://freecrm.com/
+INFO    2021-04-24 21:03:35,568 [main] com.freeCRM.base.TestBase  - Trying to find Element By : By.xpath: //header/div[1]/nav[1]/div[2]/div[1]/a[1]

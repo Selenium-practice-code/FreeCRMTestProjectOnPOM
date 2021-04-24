@@ -1,4 +1,0 @@
-INFO    2021-04-23 14:31:49,298 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
-INFO    2021-04-23 14:31:50,447 [main] com.freeCRM.base.TestBase  - Safari Browser Launched.
-INFO    2021-04-23 14:31:54,434 [main] com.freeCRM.base.TestBase  - Naviated to : -> https://freecrm.com/
-INFO    2021-04-23 14:31:56,283 [main] com.freeCRM.base.TestBase  - Test executed successfully!!

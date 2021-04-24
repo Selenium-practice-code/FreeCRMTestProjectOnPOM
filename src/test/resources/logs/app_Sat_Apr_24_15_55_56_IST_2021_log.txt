@@ -1,0 +1,1 @@
+INFO    2021-04-24 15:55:56,990 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.

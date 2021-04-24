@@ -1,2 +1,0 @@
-INFO    2021-04-22 20:39:38,793 [main] com.freeCRM.base.TestBase  - Config propertiy file loaded.
-INFO    2021-04-22 20:39:45,072 [main] com.freeCRM.base.TestBase  - Chrome Browser Launched.

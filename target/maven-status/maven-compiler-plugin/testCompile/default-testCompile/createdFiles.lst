@@ -1,3 +1,4 @@
 com/FreeCRM/testcases/LoginTest.class
 com/FreeCRM/testcases/ContactsPageTest.class
 com/FreeCRM/testcases/HomePageTest.class
+com/FreeCRM/testcases/DealsPageTest.class

@@ -10,17 +10,17 @@ import java.util.Properties;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.events.EventFiringWebDriver;
+
 import com.freeCRM.utilities.ExcelReader;
 import com.freeCRM.utilities.ExtentManager;
 import com.freeCRM.utilities.Waits;
- 
+import com.freeCRM.utilities.WebEventListener;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
-import com.relevantcodes.extentreports.LogStatus;
 
 public class TestBase {
 
@@ -35,6 +35,8 @@ public class TestBase {
 
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
+	public static WebEventListener eventListener;
+	public  static EventFiringWebDriver e_driver;
 
 	public static void initialization() {
 
@@ -89,6 +91,13 @@ public class TestBase {
 			log.info("Safari Browser Launched.");
 		}
 		
+
+		e_driver = new EventFiringWebDriver(driver);
+		// Now create object of EventListerHandler to register it with EventFiringWebDriver
+		eventListener = new WebEventListener();
+		e_driver.register(eventListener);
+		driver = e_driver;
+
 
 		driver.get(Config.getProperty("testSiteURL"));
 		log.info("Naviated to : -> " + Config.getProperty("testSiteURL"));

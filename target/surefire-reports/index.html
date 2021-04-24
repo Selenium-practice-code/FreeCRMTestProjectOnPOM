@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,26 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">10 methods, 2 failed,   8 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.ContactsPageTest" class="method navigator-link" hash-for-method="contactsPageTest({lastname=kumar, firstname=amit, =})">contactsPageTest({lastname=kumar, firstname=amit, =})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.ContactsPageTest" class="method navigator-link" hash-for-method="contactsPageTest({lastname=kumar, firstname=Sumit , =})">contactsPageTest({lastname=kumar, firstname=Sumit , =})</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">10 methods,   10 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -123,7 +104,17 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.ContactsPageTest" class="method navigator-link" hash-for-method="contactsPageTest({lastname=kumar, firstname=Sumit , =})">contactsPageTest({lastname=kumar, firstname=Sumit , =})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.LoginTest" class="method navigator-link" hash-for-method="crmLogoImageTest">crmLogoImageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.DealsPageTest" class="method navigator-link" hash-for-method="dealsPageTest({tittle=Amit kumar})">dealsPageTest({tittle=Amit kumar})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -138,12 +129,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=ks1234, username=xyz@gmail.com})">loginTest({password=ks1234, username=xyz@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})">loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})">loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.FreeCRM.testcases.LoginTest" class="method navigator-link" hash-for-method="loginTest({password=ks1234, username=xyz@gmail.com})">loginTest({password=ks1234, username=xyz@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -173,84 +164,22 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
+              <img src="passed.png"/>
               <span class="class-name">com.FreeCRM.testcases.ContactsPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="contactsPageTest({lastname=kumar, firstname=amit, =})">
-                  </a> <!-- contactsPageTest({lastname=kumar, firstname=amit, =}) -->
-                  <span class="method-name">contactsPageTest</span>
-                  <span class="parameters">({lastname=kumar, firstname=amit, =})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
-  (Session info: chrome=90.0.4430.85)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6b42f6a0b604bf2489e2a416f86564c7, findElement {using=xpath, value=//input[@name=&apos;first_name&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:50283}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6b42f6a0b604bf2489e2a416f86564c7
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at com.freeCRM.pages.ContactsPage.createNewContact(ContactsPage.java:45)
-	at com.FreeCRM.testcases.ContactsPageTest.contactsPageTest(ContactsPageTest.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="contactsPageTest({lastname=kumar, firstname=Sumit , =})">
                   </a> <!-- contactsPageTest({lastname=kumar, firstname=Sumit , =}) -->
                   <span class="method-name">contactsPageTest</span>
                   <span class="parameters">({lastname=kumar, firstname=Sumit , =})</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@name=&apos;first_name&apos;]&quot;}
-  (Session info: chrome=90.0.4430.85)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: &apos;4.0.0-beta-2&apos;, revision: &apos;4ec0cfc112&apos;
-System info: host: &apos;MacBook-Pro.local&apos;, ip: &apos;192.168.1.14&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.13.6&apos;, java.version: &apos;11.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b0c07764bdf121166fe632410eb1c076, findElement {using=xpath, value=//input[@name=&apos;first_name&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: /var/folders/06/36qh6q5947b...}, goog:chromeOptions: {debuggerAddress: localhost:49503}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b0c07764bdf121166fe632410eb1c076
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:195)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:128)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:153)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:128)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
-	at org.openqa.selenium.remote.RemoteWebDriver$Mechanism$2.findElement(RemoteWebDriver.java:1259)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:388)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at com.freeCRM.pages.ContactsPage.createNewContact(ContactsPage.java:45)
-	at com.FreeCRM.testcases.ContactsPageTest.contactsPageTest(ContactsPageTest.java:39)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 34 stack frames
-</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -283,6 +212,22 @@ Session ID: b0c07764bdf121166fe632410eb1c076
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">com.FreeCRM.testcases.DealsPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="dealsPageTest({tittle=Amit kumar})">
+                  </a> <!-- dealsPageTest({tittle=Amit kumar}) -->
+                  <span class="method-name">dealsPageTest</span>
+                  <span class="parameters">({tittle=Amit kumar})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">com.FreeCRM.testcases.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -302,18 +247,18 @@ Session ID: b0c07764bdf121166fe632410eb1c076
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest({password=ks1234, username=xyz@gmail.com})">
-                  </a> <!-- loginTest({password=ks1234, username=xyz@gmail.com}) -->
-                  <span class="method-name">loginTest</span>
-                  <span class="parameters">({password=ks1234, username=xyz@gmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})">
                   </a> <!-- loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com}) -->
                   <span class="method-name">loginTest</span>
                   <span class="parameters">({password=Lenovo1234, username=practiceselenium7@gmail.com})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest({password=ks1234, username=xyz@gmail.com})">
+                  </a> <!-- loginTest({password=ks1234, username=xyz@gmail.com}) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">({password=ks1234, username=xyz@gmail.com})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -354,6 +299,11 @@ Session ID: b0c07764bdf121166fe632410eb1c076
       &lt;class name=&quot;com.FreeCRM.testcases.ContactsPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Contacts Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Dealspage Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.FreeCRM.testcases.DealsPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Dealspage Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -372,6 +322,9 @@ Session ID: b0c07764bdf121166fe632410eb1c076
               </li>
               <li>
                 <span class="test-name">Contacts Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Dealspage Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -399,41 +352,41 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'contactsPageTest')
-data.setCell(0, 2, 'com.FreeCRM.testcases.ContactsPageTest')
-data.setCell(0, 3, 30294);
+data.setCell(0, 1, 'loginTest')
+data.setCell(0, 2, 'com.FreeCRM.testcases.LoginTest')
+data.setCell(0, 3, 9449);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'contactsPageTest')
-data.setCell(1, 2, 'com.FreeCRM.testcases.ContactsPageTest')
-data.setCell(1, 3, 30262);
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'com.FreeCRM.testcases.LoginTest')
+data.setCell(1, 3, 8901);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginTest')
 data.setCell(2, 2, 'com.FreeCRM.testcases.LoginTest')
-data.setCell(2, 3, 6345);
+data.setCell(2, 3, 5491);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'goToContactsLinkTest')
+data.setCell(3, 1, 'verifyUserNameTest')
 data.setCell(3, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(3, 3, 6282);
+data.setCell(3, 3, 4196);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTest')
-data.setCell(4, 2, 'com.FreeCRM.testcases.LoginTest')
-data.setCell(4, 3, 5455);
+data.setCell(4, 1, 'contactsPageTest')
+data.setCell(4, 2, 'com.FreeCRM.testcases.ContactsPageTest')
+data.setCell(4, 3, 2633);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginTest')
-data.setCell(5, 2, 'com.FreeCRM.testcases.LoginTest')
-data.setCell(5, 3, 5067);
+data.setCell(5, 1, 'goToContactsLinkTest')
+data.setCell(5, 2, 'com.FreeCRM.testcases.HomePageTest')
+data.setCell(5, 3, 1354);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyUserNameTest')
-data.setCell(6, 2, 'com.FreeCRM.testcases.HomePageTest')
-data.setCell(6, 3, 1688);
+data.setCell(6, 1, 'dealsPageTest')
+data.setCell(6, 2, 'com.FreeCRM.testcases.DealsPageTest')
+data.setCell(6, 3, 902);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'crmLogoImageTest')
 data.setCell(7, 2, 'com.FreeCRM.testcases.LoginTest')
-data.setCell(7, 3, 61);
+data.setCell(7, 3, 88);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'loginPageTitleTest')
 data.setCell(8, 2, 'com.FreeCRM.testcases.LoginTest')
-data.setCell(8, 3, 20);
+data.setCell(8, 3, 18);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'verifyHomePageTitleTest')
 data.setCell(9, 2, 'com.FreeCRM.testcases.HomePageTest')
@@ -442,7 +395,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 33 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -453,26 +406,6 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">contactsPageTest({lastname=kumar, firstname=amit, =})</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Click to see Screenshot</span>
-                <span class="reporter-method-output"><a target="_blank" href=Fri_Apr_23_14_29_39_IST_2021.jpg>Screenshot</a></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Fri_Apr_23_14_29_39_IST_2021.jpg><img src=Fri_Apr_23_14_29_39_IST_2021.jpg height=100 width=1 00></img></a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">contactsPageTest({lastname=kumar, firstname=Sumit , =})</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Click to see Screenshot</span>
-                <span class="reporter-method-output"><a target="_blank" href=Fri_Apr_23_14_28_08_IST_2021.jpg>Screenshot</a></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><br></span>
-                <span class="reporter-method-output"><a target="_blank" href=Fri_Apr_23_14_28_08_IST_2021.jpg><img src=Fri_Apr_23_14_28_08_IST_2021.jpg height=100 width=1 00></img></a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -495,129 +428,128 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginPageTitleTest</span>
-                <span class="method-start">42270 ms</span>
+                <span class="method-start">52460 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">43047 ms</span>
+                <span class="method-start">53427 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">43916 ms</span>
+                <span class="method-start">55481 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">crmLogoImageTest</span>
-                <span class="method-start">68209 ms</span>
+                <span class="method-start">95492 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">68334 ms</span>
+                <span class="method-start">96249 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">68849 ms</span>
+                <span class="method-start">97946 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest({password=Lenovo1234, username=practiceselenium7@gmail.com})</span>
-                <span class="method-start">128159 ms</span>
+                <span class="method-start">147165 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">133292 ms</span>
+                <span class="method-start">156208 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">135388 ms</span>
+                <span class="method-start">157628 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest({password=aks1234, username=abc@gmail.com})</span>
-                <span class="method-start">163704 ms</span>
+                <span class="method-start">191687 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">173617 ms</span>
+                <span class="method-start">204432 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">188792 ms</span>
+                <span class="method-start">218864 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTest({password=ks1234, username=xyz@gmail.com})</span>
-                <span class="method-start">223607 ms</span>
+                <span class="method-start">267329 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">230091 ms</span>
+                <span class="method-start">273138 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.FreeCRM.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">232378 ms</span>
+                <span class="method-start">275584 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyHomePageTitleTest</span>
-                <span class="method-start">304934 ms</span>
+                <span class="method-start">318857 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowsers</span>
-                <span class="method-start">308411 ms</span>
+                <span class="method-start">319070 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">310137 ms</span>
+                <span class="method-start">322459 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyUserNameTest</span>
-                <span class="method-start">359761 ms</span>
+                <span class="method-start">359567 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowsers</span>
-                <span class="method-start">361830 ms</span>
+                <span class="method-start">364924 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">362975 ms</span>
+                <span class="method-start">378193 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">goToContactsLinkTest</span>
-                <span class="method-start">404384 ms</span>
+                <span class="method-start">434592 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowsers</span>
-                <span class="method-start">418860 ms</span>
+                <span class="method-start">436239 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.FreeCRM.testcases.ContactsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">423004 ms</span>
+                <span class="method-start">437093 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">contactsPageTest({lastname=kumar, firstname=Sumit , =})</span>
-                <span class="method-start">480626 ms</span>
+                <span class="method-start">482164 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">512519 ms</span>
+                <span class="method-start">484839 ms</span>
               </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.FreeCRM.testcases.DealsPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">512890 ms</span>
+                <span class="method-start">485085 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">contactsPageTest({lastname=kumar, firstname=amit, =})</span>
-                <span class="method-start">573169 ms</span>
+                <span class="method-name">dealsPageTest({tittle=Amit kumar})</span>
+                <span class="method-start">525140 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closedBrowser</span>
-                <span class="method-start">603676 ms</span>
+                <span class="method-start">546451 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

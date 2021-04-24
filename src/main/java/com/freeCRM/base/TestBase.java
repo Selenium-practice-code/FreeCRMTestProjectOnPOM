@@ -31,12 +31,11 @@ public class TestBase {
 	public static String browser;
 	public static ExcelReader excel = new ExcelReader(
 			System.getProperty("user.dir") + "/src/test/resources/excel/testdata.xlsx");
-	
 
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	public static WebEventListener eventListener;
-	public  static EventFiringWebDriver e_driver;
+	public static EventFiringWebDriver e_driver;
 
 	public static void initialization() {
 
@@ -90,34 +89,30 @@ public class TestBase {
 			driver = new SafariDriver();
 			log.info("Safari Browser Launched.");
 		}
-		
 
 		e_driver = new EventFiringWebDriver(driver);
-		// Now create object of EventListerHandler to register it with EventFiringWebDriver
+		// Now create object of EventListerHandler to register it with
+		// EventFiringWebDriver
 		eventListener = new WebEventListener();
 		e_driver.register(eventListener);
 		driver = e_driver;
 
-
 		driver.get(Config.getProperty("testSiteURL"));
-		log.info("Naviated to : -> " + Config.getProperty("testSiteURL"));
 		
+		log.info("Naviated to : -> " + Config.getProperty("testSiteURL"));
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Waits.IMPLICIT_WAIT));
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Waits.PAGE_LOAD_TIMEOUT));
-		
 
-		
 	}
 
 	public void switchToFrame(String frameName) {
 
 		driver.switchTo().frame(frameName);
-		
+
 	}
-	
-	
 
 	public void tearDown() {
 

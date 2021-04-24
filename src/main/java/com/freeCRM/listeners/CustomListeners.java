@@ -90,7 +90,7 @@ public class CustomListeners extends TestBase implements ITestListener, ISuiteLi
 		Reporter.log("<br>");
 		Reporter.log("<br>");
 		Reporter.log("<a target=\"_blank\" href=" + Utilities.screenshotName + "><img src=" + Utilities.screenshotName
-				+ " height=100 width=1 00></img></a>");
+				+ " height=100 width=100></img></a>");
 		rep.endTest(test);
 		rep.flush();
 
